@@ -14,11 +14,11 @@ export const siteConfig = {
   skills: ["Python", "Django", "FastAPI", "PostgreSQL", "Docker"],
   projects: [
     {
-      name: "clairo",
+      name: "papo",
       description:
-        "Chat App em tempo real com monitoramento de status online sem a coleta de dados pessoais, com sistema de segurança baseado em tokens",
-      link: "https://github.com/ma-alves/clairo",
-      skills: ["Django", "Docker", "Tailwind CSS", "Redis", "PostgreSQL"],
+        "Chat App em tempo real com monitoramento de status online sem coleta de dados pessoais, com sistema de segurança baseado em tokens",
+      link: "https://github.com/ma-alves/papo",
+      skills: ["Django", "Docker", "Tailwind", "Redis", "PostgreSQL"],
     },
     // {
     //   name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
