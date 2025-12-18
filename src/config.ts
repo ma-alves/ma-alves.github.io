@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Matheus Alves",
   title: "Back-End Developer",
   description: "Portfolio website of Matheus Alves",
-  accentColor: "#e02b2bff",
+  accentColor: "#7008e7",
   social: {
     email: "matheusvialves@outlook.com",
     linkedin: "https://linkedin.com/in/matheusvialves",
