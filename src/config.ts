@@ -16,17 +16,17 @@ export const siteConfig = {
     {
       name: "papo",
       description:
-        "Chat App em tempo real com monitoramento de status online sem coleta de dados pessoais, com sistema de segurança baseado em tokens",
-      link: "https://github.com/ma-alves/papo",
-      skills: ["Django", "Docker", "Tailwind", "Redis", "PostgreSQL"],
+        "Chat App em tempo real com monitoramento de status online sem coleta de dados pessoais, com sistema de recuperação de senha baseado em tokens (PAT).",
+      link: "https://papo-uexb.onrender.com",
+      skills: ["Django", "Tailwind", "Redis", "PostgreSQL", "Docker"],
     },
-    // {
-    //   name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-    //   description:
-    //     "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-    //   link: "https://fullstackextensions.com/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
+    {
+      name: "Costume Rental API",
+      description:
+        "RESTful API para servir uma aplicação de aluguel de fantasias, com sessões protegidas por JWT e alta cobertura de testes. Projeto documentado em inglês.",
+      link: "https://github.com/ma-alves/costume-rental-api",
+      skills: ["FastAPI", "Pytest","PostgreSQL", "Docker"],
+    },
     // {
     //   name: "ExtensionKit",
     //   description:
