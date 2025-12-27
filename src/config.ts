@@ -10,8 +10,8 @@ export const siteConfig = {
     github: "https://github.com/ma-alves",
   },
   aboutMe:
-    "Sou Técnico em Informática e estou me especializando em Desenvolvimento Back-end, com foco nos frameworks FastAPI e Django. Dentro da minha experiência desenvolvendo projetos tive contato com os bancos de dados MySQL, PostgreSQL e SQLite; desenvolvi o meu TCC utilizando PHP; para a criação de um CLI que conecta com a API do GitHub utilizei Rust; Docker, GitHub Actions e Postman para o desenvolvimento de uma API REST desenvolvida com FastAPI; e Django Channels para o densenvolvimento de uma aplicação de conversas em tempo real. Minhas maiores qualidades são a aptidão para o aprendizado e engajamento na compreensão do fluxo de trabalho da equipe.",
-  skills: ["Python", "Django", "FastAPI", "PostgreSQL", "Docker"],
+    "Sou Desenvolvedor Back-end com foco nos frameworks web FastAPI e Django da linguagem Python, em conjunto com Docker e GitHub Actions para desenvolvimento e automações. Possuo experiência com PostgreSQL, MySQL e SQLite no desenvolvimento de projetos web, sendo o primeiro de forma assíncrona com SQLAlchemy no FastAPI, assim como já utilizei Redis para operações Pub/Sub em channel layers de WebSockets. Também possuo conhecimento básico de Rust, intermediário de JavaScript e estou estudando Node.js + Express para ampliar minha stack de back-end. Minhas maiores qualidades são a aptidão para o aprendizado e engajamento na compreensão do fluxo de trabalho das equipes em que faço parte. Atualmente estou a procura de uma oportunidade para demonstrar minha capacidade em solucionar problemas e contribuir ativamente com a equipe, assim como aprender o máximo possível.",
+  skills: ["Python", "Django", "FastAPI", "JavaScript", "PostgreSQL", "Docker", "GitHub Actions"],
   projects: [
     {
       name: "papo",
