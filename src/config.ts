@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Portfolio website of Matheus Alves",
   accentColor: "#7008e7",
   social: {
-    email: "matheusvialves@outlook.com",
+    email: "matheusvialves@proton.me",
     linkedin: "https://linkedin.com/in/matheusvialves",
     // twitter: "https://x.com/rfitzio",
     github: "https://github.com/ma-alves",
