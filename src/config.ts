@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Sou Desenvolvedor Back-end com foco nos frameworks web FastAPI e Django da linguagem Python, em conjunto com Docker e GitHub Actions para desenvolvimento e automações. Possuo experiência com PostgreSQL, MySQL e SQLite no desenvolvimento de projetos web, sendo o primeiro de forma assíncrona com SQLAlchemy no FastAPI, assim como já utilizei Redis para operações Pub/Sub em channel layers de WebSockets. Também possuo conhecimento básico de Rust, intermediário de JavaScript e estou estudando Node.js + Express para ampliar minha stack de back-end. Minhas maiores qualidades são a aptidão para o aprendizado e engajamento na compreensão do fluxo de trabalho das equipes em que faço parte. Atualmente estou a procura de uma oportunidade para demonstrar minha capacidade em solucionar problemas e contribuir ativamente com a equipe, assim como aprender o máximo possível.",
-  skills: ["Python", "Django", "FastAPI", "JavaScript", "PostgreSQL", "Docker", "GitHub Actions"],
+  skills: ["Python", "Django", "FastAPI", "JavaScript", "PostgreSQL", "MySQL", "Rust", "Docker", "GitHub Actions"],
   projects: [
     {
       name: "papo",
@@ -25,15 +25,15 @@ export const siteConfig = {
       description:
         "RESTful API para servir uma aplicação de aluguel de fantasias, com sessões protegidas por JWT e alta cobertura de testes. Projeto documentado em inglês.",
       link: "https://github.com/ma-alves/costume-rental-api",
-      skills: ["FastAPI", "Pytest","PostgreSQL", "Docker"],
+      skills: ["FastAPI", "Pytest", "PostgreSQL", "Docker"],
     },
-    // {
-    //   name: "ExtensionKit",
-    //   description:
-    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-    //   link: "https://extensionkit.io/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
+    {
+      name: "buhtig",
+      description:
+        "Aplicativo de linha de comando para consumir dados da API do GitHub sobre atividades de usuários e em repositórios.",
+      link: "https://github.com/ma-alves/buhtig",
+      skills: ["Rust", "Clap", "Reqwests", "Serde", "APIs"],
+    },
   ],
   experience: [
     {
