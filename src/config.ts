@@ -11,28 +11,35 @@ export const siteConfig = {
   },
   aboutMe:
     "Sou Desenvolvedor Back-end com foco nos frameworks web FastAPI e Django da linguagem Python, em conjunto com Docker e GitHub Actions para desenvolvimento e automações. Possuo experiência com PostgreSQL, MySQL e SQLite no desenvolvimento de projetos web, sendo o primeiro de forma assíncrona com SQLAlchemy no FastAPI, assim como já utilizei Redis para operações Pub/Sub em channel layers de WebSockets. Também possuo conhecimento básico de Rust, intermediário de JavaScript e estou estudando Node.js + Express para ampliar minha stack de back-end. Minhas maiores qualidades são a aptidão para o aprendizado e engajamento na compreensão do fluxo de trabalho das equipes em que faço parte. Atualmente estou a procura de uma oportunidade para demonstrar minha capacidade em solucionar problemas e contribuir ativamente com a equipe, assim como aprender o máximo possível.",
-  skills: ["Python", "Django", "FastAPI", "JavaScript", "PostgreSQL", "MySQL", "Rust", "Docker", "GitHub Actions"],
+  skills: ["Python", "Django", "FastAPI", "PostgreSQL", "Redis", "Node.js", "MongoDB", "Docker", "GitHub Actions", "Rust"],
   projects: [
     {
       name: "papo",
       description:
         "Chat App em tempo real com monitoramento de status online sem coleta de dados pessoais, com sistema de recuperação de senha baseado em tokens (PAT).",
       link: "https://papo-uexb.onrender.com",
-      skills: ["Django", "Tailwind", "Redis", "PostgreSQL", "Docker"],
+      skills: ["Django", "Redis", "PostgreSQL", "Docker", "GitHub Actions", "Tailwind", "WebSockets"],
     },
     {
       name: "Costume Rental API",
       description:
-        "RESTful API para servir uma aplicação de aluguel de fantasias, com sessões protegidas por JWT e alta cobertura de testes. Projeto documentado em inglês.",
+        "API REST para servir uma aplicação de aluguel de fantasias, com sessões protegidas por JWT e alta cobertura de testes. Projeto documentado em inglês.",
       link: "https://github.com/ma-alves/costume-rental-api",
-      skills: ["FastAPI", "Pytest", "PostgreSQL", "Docker"],
+      skills: ["FastAPI", "PostgreSQL", "Docker", "GitHub Actions"],
+    },
+    {
+      name: "URL Shortener API",
+      description:
+        "API para encurtar URLs desenvolvida com FastAPI e arquitetura assíncrona para alto desempenho. Códigos de URL criados utilizando base 62 com range de 7 dígitos, possibilitando 62⁷ combinações de caracteres, valor mais do que suficiente para a escalabilidade do serviço.",
+      link: "https://github.com/ma-alves/url-shortener",
+      skills: ["FastAPI", "PostgreSQL", "Redis", "Docker"],
     },
     {
       name: "buhtig",
       description:
         "Aplicativo de linha de comando para consumir dados da API do GitHub sobre atividades de usuários e em repositórios.",
       link: "https://github.com/ma-alves/buhtig",
-      skills: ["Rust", "Clap", "Reqwests", "Serde", "APIs"],
+      skills: ["Rust", "Clap", "Reqwests", "Serde"],
     },
   ],
   experience: [
