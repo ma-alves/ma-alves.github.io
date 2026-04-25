@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Desenvolvedor Back-end com sólida base técnica no desenvolvimento de APIs REST seguindo padrões a nível de produção com segurança, disponibilidade, documentação e CI/CD. Busco uma oportunidade para atuar como desenvolvedor júnior e contribuir com a equipe aplicando meus conhecimentos em Python e Node.js para solucionar problemas reais e evoluir tecnicamente em um ambiente colaborativo. Tenho experiência prática em FastAPI, Django e Express, em conjunto com Docker e GitHub Actions para desenvolvimento e automações. Possuo projetos que utilizam PostgreSQL, MySQL e SQLite, acessados através das ORMs SQLAlchemy e Sequelize, assim como já utilizei Redis para operações Pub/Sub em channel layers de WebSockets. Também possuo conhecimento prático em Rust para construção de CLIs. Minhas maiores qualidades são a aptidão para o aprendizado e engajamento na compreensão do fluxo de trabalho das equipes em que faço parte.",
-  skills: ["APIs REST", "Clean Architecture", "MVC", "Python", "Django", "FastAPI", "PostgreSQL", "Redis", "Node.js + Express", "TypeScript", "Docker", "GitHub Actions", "Rust"],
+  skills: ["APIs REST", "Clean Architecture", "MVC", "Python", "Django", "FastAPI", "Java", "Spring Boot","PostgreSQL", "Redis", "Node.js + Express", "TypeScript", "Docker", "GitHub Actions", "Rust"],
   projects: [
     {
       name: "papo",
@@ -44,6 +44,16 @@ export const siteConfig = {
   ],
   experience: [
     {
+      company: "Instituto Residência Travessia",
+      title: "Desenvolvedor Backend",
+      dateRange: "Março 2026 - Atualmente",
+      // bullets: [
+      //   "Built and launched MVP product from scratch using React and Node.js",
+      //   "Implemented CI/CD pipeline reducing deployment time by 60%",
+      //   "Collaborated with product team to define technical requirements",
+      // ],
+    },
+    {
       company: "Escola Técnica de Brasília",
       title: "Estagiário",
       dateRange: "Agosto 2025 - Novembro 2025",
@@ -53,16 +63,6 @@ export const siteConfig = {
         "Suporte técnico a professores e alunos",
       ],
     },
-    // {
-    //   company: "Startup Inc",
-    //   title: "Full Stack Developer",
-    //   dateRange: "Jun 2020 - Dec 2021",
-    //   bullets: [
-    //     "Built and launched MVP product from scratch using React and Node.js",
-    //     "Implemented CI/CD pipeline reducing deployment time by 60%",
-    //     "Collaborated with product team to define technical requirements",
-    //   ],
-    // },
     // {
     //   company: "Digital Agency",
     //   title: "Frontend Developer",
