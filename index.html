@@ -8,61 +8,44 @@
             href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap"
             rel="stylesheet"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Space+Grotesk:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="assets/styles.css" />
+        <!--<link rel="icon" type="image/png" href="/favicon.png" />-->
         <script src="https://cdn.tailwindcss.com"></script>
+        <script src="config.js"></script>
         <title>Matheus Alves</title>
-        <style>
-            body {
-                font-family: "JetBrains Mono", monospace;
-            }
-        </style>
     </head>
     <body class="min-h-screen flex flex-col bg-gray-50">
         <div class="flex-1 container mx-auto px-4 py-6 max-w-2xl">
             <nav class="mb-12">
                 <ul class="list-none flex flex-row gap-5">
                     <li>
-                        <a
-                            class="no-underline hover:underline hover:underline-offset-4"
-                            href="#"
-                            >sobre</a
-                        >
+                        <a class="nav-link" href="#sobre">sobre</a>
                     </li>
                     <li>
-                        <a
-                            class="no-underline hover:underline hover:underline-offset-4"
-                            href="#"
-                            >experiência</a
-                        >
+                        <a class="nav-link" href="#experiencia">experiência</a>
                     </li>
                     <li>
-                        <a
-                            class="no-underline hover:underline hover:underline-offset-4"
-                            href="#"
-                            >projetos</a
-                        >
+                        <a class="nav-link" href="#projetos">projetos</a>
                     </li>
                     <li>
-                        <a
-                            class="no-underline hover:underline hover:underline-offset-4"
-                            href="#"
-                            >educação</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            class="no-underline hover:underline hover:underline-offset-4"
-                            href="#"
-                            >blog</a
-                        >
+                        <a class="nav-link" href="#educacao">educação</a>
                     </li>
                 </ul>
             </nav>
             <main>
                 <h1 class="section-title font-bold text-3xl mb-2">
-                    olá, me chamo Matheus Alves
+                    olá, me chamo <span id="myName"></span>
                 </h1>
-                <h3 class="text-xl font-light mb-4">back-end developer</h3>
-                <div class="flex flex-row gap-4 mb-10">
+                <h3 class="text-xl font-light mb-4 align">
+                    <span id="role"></span>
+                </h3>
+                <div class="flex flex-row gap-4 mb-10 justify-end">
                     <a
                         href="mailto:matheusvialves@proton.me"
                         aria-label="Email"
@@ -179,41 +162,67 @@
                     </a>
                 </div>
                 <div class="flex flex-col gap-10">
-                    <section>
+                    <section id="sobre">
                         <h2 class="text-2xl font-bold mb-4">sobre mim</h2>
-                        <p class="text-justify">
-                            Desenvolvedor Back-end com sólida base técnica no
-                            desenvolvimento de APIs REST seguindo padrões a
-                            nível de produção com segurança, disponibilidade,
-                            documentação e CI/CD. Busco uma oportunidade para
-                            atuar como desenvolvedor júnior e contribuir com a
-                            equipe aplicando meus conhecimentos em Python e
-                            Node.js para solucionar problemas reais e evoluir
-                            tecnicamente em um ambiente colaborativo. Tenho
-                            experiência prática em FastAPI, Django e Express, em
-                            conjunto com Docker e GitHub Actions para
-                            desenvolvimento e automações. Possuo projetos que
-                            utilizam PostgreSQL, MySQL e SQLite, acessados
-                            através das ORMs SQLAlchemy e Sequelize, assim como
-                            já utilizei Redis para operações Pub/Sub em channel
-                            layers de WebSockets. Também possuo conhecimento
-                            prático em Rust para construção de CLIs. Minhas
-                            maiores qualidades são a aptidão para o aprendizado
-                            e engajamento na compreensão do fluxo de trabalho
-                            das equipes em que faço parte.
-                        </p>
+                        <div class="flex flex-col gap-3 text-justify">
+                            <p>
+                                Desenvolvedor Back-end com sólida base técnica
+                                no desenvolvimento de APIs REST seguindo padrões
+                                a nível de produção com segurança,
+                                disponibilidade, documentação e CI/CD.
+                            </p>
+                            <p>
+                                Busco uma oportunidade para atuar como
+                                desenvolvedor júnior e contribuir com a equipe
+                                aplicando meus conhecimentos em Python e Node.js
+                                para solucionar problemas reais e evoluir
+                                tecnicamente em um ambiente colaborativo. Tenho
+                                experiência prática em FastAPI, Django e
+                                Express, em conjunto com Docker e GitHub Actions
+                                para desenvolvimento e automações.
+                            </p>
+                            <p>
+                                Possuo projetos que utilizam PostgreSQL, MySQL e
+                                SQLite, acessados através das ORMs SQLAlchemy e
+                                Sequelize, assim como já utilizei Redis para
+                                operações Pub/Sub em channel layers de
+                                WebSockets. Também possuo conhecimento prático
+                                em Rust para construção de CLIs.
+                            </p>
+                            <p>
+                                Minhas maiores qualidades são a aptidão para o
+                                aprendizado e engajamento na compreensão do
+                                fluxo de trabalho das equipes em que faço parte.
+                            </p>
+                        </div>
                     </section>
-                    <section>
+                    <section id="projetos">
                         <h2 class="text-2xl font-bold mb-4">projetos</h2>
-                        <h3 class="text-xl font-semibold mb-2">Papo</h3>
-                        <p class="text-justify mb-4">
-                            Chat App em tempo real com monitoramento de status
-                            online sem coleta de dados pessoais, com sistema de
-                            recuperação de senha baseado em tokens (PAT).
-                        </p>
+                        <div class="flex flex-col gap-2 text-justify">
+                            <h3 class="text-xl font-semibold mb-2">Papo</h3>
+                            <p class="text-justify mb-4">
+                                Chat App em tempo real com monitoramento de
+                                status online sem coleta de dados pessoais, com
+                                sistema de recuperação de senha baseado em
+                                tokens (PAT).
+                            </p>
+                            <h3 class="text-xl font-semibold mb-2">
+                                Costume Rental API
+                            </h3>
+                            <p class="text-justify mb-4">
+                                API REST para servir uma aplicação de aluguel de
+                                fantasias, com sessões protegidas por JWT e alta
+                                cobertura de testes. Projeto documentado em
+                                inglês.
+                            </p>
+                        </div>
                     </section>
                 </div>
             </main>
         </div>
+        <script>
+            document.getElementById("myName").textContent = CONFIG.myName;
+            document.getElementById("role").textContent = CONFIG.role;
+        </script>
     </body>
 </html>

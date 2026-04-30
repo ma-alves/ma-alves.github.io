@@ -1,0 +1,17 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+}
+
+p {
+    color: #1f1f1f;
+    font-family: "Space Grotesk";
+    /*font-family: "DM Mono";*/
+}
+
+.nav-link {
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
