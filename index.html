@@ -18,34 +18,33 @@
         <!--<link rel="icon" type="image/png" href="/favicon.png" />-->
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="config.js"></script>
-        <title>Matheus Alves</title>
+        <title>⚹</title>
     </head>
     <body class="min-h-screen flex flex-col bg-gray-50">
         <div class="flex-1 container mx-auto px-4 py-6 max-w-2xl">
             <nav class="mb-12">
                 <ul class="list-none flex flex-row gap-5">
                     <li>
-                        <a class="nav-link" href="#sobre">sobre</a>
+                        <a class="nav-link" href="#ola">olá</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#experiencia">experiência</a>
+                        <a class="nav-link" href="#referencias">referências</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="nav-link" href="#projetos">projetos</a>
                     </li>
                     <li>
                         <a class="nav-link" href="#educacao">educação</a>
-                    </li>
+                    </li>-->
                 </ul>
             </nav>
             <main>
-                <h1 class="section-title font-bold text-3xl mb-2">
-                    olá, me chamo <span id="myName"></span>
-                </h1>
-                <h3 class="text-xl font-light mb-4 align">
-                    <span id="role"></span>
-                </h3>
-                <div class="flex flex-row gap-4 mb-10 justify-end">
+                <h1
+                    id="myName"
+                    class="section-title font-bold text-3xl mb-2"
+                ></h1>
+                <h3 id="role" class="text-xl font-light mb-4 align"></h3>
+                <div class="flex flex-row gap-4 mb-10">
                     <a
                         href="mailto:matheusvialves@proton.me"
                         aria-label="Email"
@@ -162,41 +161,34 @@
                     </a>
                 </div>
                 <div class="flex flex-col gap-10">
-                    <section id="sobre">
-                        <h2 class="text-2xl font-bold mb-4">sobre mim</h2>
+                    <section id="ola">
+                        <h2 class="text-2xl font-bold mb-4">olá!</h2>
                         <div class="flex flex-col gap-3 text-justify">
                             <p>
-                                Desenvolvedor Back-end com sólida base técnica
-                                no desenvolvimento de APIs REST seguindo padrões
-                                a nível de produção com segurança,
-                                disponibilidade, documentação e CI/CD.
+                                Aqui esteve hospedado meu portfólio! Mas a
+                                redundância de informações já disponíveis no
+                                LinkedIn e GitHub era estressante. Os links
+                                estão disponíveis acima, tudo que é relevante
+                                está fácil de achar. Usarei este espaço de forma
+                                informal para guardar materiais interessantes e
+                                úteis.
                             </p>
                             <p>
-                                Busco uma oportunidade para atuar como
-                                desenvolvedor júnior e contribuir com a equipe
-                                aplicando meus conhecimentos em Python e Node.js
-                                para solucionar problemas reais e evoluir
-                                tecnicamente em um ambiente colaborativo. Tenho
-                                experiência prática em FastAPI, Django e
-                                Express, em conjunto com Docker e GitHub Actions
-                                para desenvolvimento e automações.
-                            </p>
-                            <p>
-                                Possuo projetos que utilizam PostgreSQL, MySQL e
-                                SQLite, acessados através das ORMs SQLAlchemy e
-                                Sequelize, assim como já utilizei Redis para
-                                operações Pub/Sub em channel layers de
-                                WebSockets. Também possuo conhecimento prático
-                                em Rust para construção de CLIs.
-                            </p>
-                            <p>
-                                Minhas maiores qualidades são a aptidão para o
-                                aprendizado e engajamento na compreensão do
-                                fluxo de trabalho das equipes em que faço parte.
+                                Bom, gosto de assistir filmes e jogos de
+                                futebol, escutar hip-hop alternativo, indie e
+                                regional mexicano. Aprecio muito projetos open
+                                source e tenho vontade de trabalhar com sistemas
+                                distribuídos. Vivo um grande dilema entre
+                                aprender ratatui ou focar em tecnologias
+                                corporativas que me garantam um emprego.
                             </p>
                         </div>
                     </section>
-                    <section id="projetos">
+                    <section id="referencias">
+                        <h2 class="text-2xl font-bold mb-4">referências</h2>
+                        <div class="flex flex-col gap-2 text-justify"></div>
+                    </section>
+                    <!--<section id="projetos">
                         <h2 class="text-2xl font-bold mb-4">projetos</h2>
                         <div class="flex flex-col gap-2 text-justify">
                             <h3 class="text-xl font-semibold mb-2">Papo</h3>
@@ -215,8 +207,25 @@
                                 cobertura de testes. Projeto documentado em
                                 inglês.
                             </p>
+                            <h3 class="text-xl font-semibold mb-2">
+                                URL Shortener API
+                            </h3>
+                            <p class="text-justify mb-4">
+                                API para encurtar URLs desenvolvida com FastAPI
+                                e arquitetura assíncrona para alto desempenho.
+                                Códigos de URL criados utilizando base 62 com
+                                range de 7 dígitos, possibilitando 62⁷
+                                combinações de caracteres, valor mais do que
+                                suficiente para a escalabilidade do serviço.
+                            </p>
+                            <h3 class="text-xl font-semibold mb-2">buhtig</h3>
+                            <p class="text-justify mb-4">
+                                Aplicativo de linha de comando para consumir
+                                dados da API do GitHub sobre atividades de
+                                usuários e em repositórios.
+                            </p>
                         </div>
-                    </section>
+                    </section>-->
                 </div>
             </main>
         </div>

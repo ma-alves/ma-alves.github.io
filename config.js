@@ -1,4 +1,4 @@
 const CONFIG = {
   myName: "Matheus Alves",
-  role: "backend developer",
+  role: "back-end developer",
 };
