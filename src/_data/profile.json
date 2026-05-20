@@ -1,0 +1,59 @@
+{
+  "name": "Matheus Alves",
+  "role": "desenvolvedor back-end",
+  "about": [
+    "Sou Desenvolvedor Back-end e possuo sólida base técnica no desenvolvimento de APIs REST seguindo padrões que compreendem todo o ciclo de vida do software com segurança, disponibilidade, documentação e pipelines automatizadas."
+  ],
+  "social": {
+    "email": "matheusvialves@proton.me",
+    "linkedin": "https://linkedin.com/in/matheusvialves",
+    "github": "https://github.com/ma-alves"
+  },
+  "stack": [
+    {
+      "category": "Linguagens",
+      "items": ["Python", "Java", "TypeScript (Node.js)", "Rust"]
+    },
+    {
+      "category": "Frameworks Web",
+      "items": ["FastAPI", "Django", "Spring Boot", "Express"]
+    },
+    {
+      "category": "DevOps & Infra",
+      "items": ["Docker", "Docker Compose", "GitHub Actions", "AWS (API Gateway, Lambda, Dynamo, RDS, S3)"]
+    },
+    {
+      "category": "Bancos de Dados",
+      "items": ["PostgreSQL", "MySQL", "Redis"]
+    },
+    {
+      "category": "Arquiteturas & Padrões",
+      "items": ["MVC", "Clean Architecture", "Test Driven Design"]
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "PAPO",
+      "description": "Chat App em tempo real com monitoramento de status online sem coleta de dados pessoais, com sistema de recuperação de senha baseado em tokens (PAT)."
+    },
+    {
+      "title": "COSTUME RENTAL API",
+      "description": "API REST para servir uma aplicação de aluguel de fantasias, com sessões protegidas por JWT e alta cobertura de testes. Projeto documentado em inglês."
+    },
+    {
+      "title": "URL SHORTENER API",
+      "description": "API para encurtar URLs desenvolvida com FastAPI e arquitetura assíncrona para alto desempenho. Códigos de URL criados utilizando base 62 com range de 7 dígitos, possibilitando 62\u2077 combinações de caracteres, valor mais do que suficiente para a escalabilidade do serviço."
+    },
+    {
+      "title": "BUHTIG",
+      "description": "Aplicativo de linha de comando para consumir dados da API do GitHub sobre atividades de usuários e em repositórios."
+    }
+  ],
+  "services": [
+    {
+      "title": "Exemplo de Serviço",
+      "description": "Descrição do serviço que você oferece."
+    }
+  ]
+}

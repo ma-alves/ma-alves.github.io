@@ -1,11 +1,18 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+module.exports = {
+  content: ['./src/**/*.{njk,html,js}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Space Grotesk', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+      colors: {
+        accent: {
+          DEFAULT: '#ea580c',
+          hover: '#c2410c',
+        },
+      },
+    },
   },
   plugins: [],
-}
+};

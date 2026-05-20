@@ -1,0 +1,16 @@
+<section id="experiencia" class="mt-16">
+  <h2 class="text-2xl font-bold mb-4">experiência</h2>
+  <div class="flex flex-col gap-2 text-justify">
+    {% if profile.experience | length %}
+      {% for exp in profile.experience %}
+      <div class="border-l-2 border-accent pl-4">
+        <h3 class="font-semibold">{{ exp.role }}</h3>
+        <p class="text-sm text-stone-400">{{ exp.company }} · {{ exp.period }}</p>
+        <p class="mt-2">{{ exp.description }}</p>
+      </div>
+      {% endfor %}
+    {% else %}
+      <p class="text-stone-500 italic">Em breve</p>
+    {% endif %}
+  </div>
+</section>

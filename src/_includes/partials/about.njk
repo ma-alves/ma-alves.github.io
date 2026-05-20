@@ -1,0 +1,21 @@
+<section id="ola">
+  <h2 class="text-2xl font-bold mb-4">olá!</h2>
+  <div class="flex flex-col gap-3 text-justify mb-8">
+    {% for paragraph in profile.about %}
+    <p>{{ paragraph }}</p>
+    {% endfor %}
+  </div>
+  <h3 class="text-xl font-semibold mb-4">Trabalho com essas tecnologias</h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+    {% for category in profile.stack %}
+    <div class="border border-stone-800 rounded-lg p-4">
+      <h4 class="text-sm font-semibold text-accent uppercase tracking-wider mb-3">{{ category.category }}</h4>
+      <ul class="flex flex-col gap-1.5">
+        {% for item in category.items %}
+        <li class="text-stone-300 font-mono text-sm">> {{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
