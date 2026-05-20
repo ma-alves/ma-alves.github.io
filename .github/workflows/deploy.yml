@@ -1,9 +1,10 @@
 name: Deploy to GitHub Pages
 on:
   push:
+    branches: [main, v2]
+  pull_request:
     branches: [main]
-  pull-request:
-    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read

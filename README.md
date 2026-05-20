@@ -1,3 +1,6 @@
+- adicionar foto
+- botar link em projetos
+
 # Portfólio — Matheus Alves
 
 Portfólio pessoal construído com [Eleventy](https://www.11ty.dev/) + [Tailwind CSS](https://tailwindcss.com/), deploy no GitHub Pages.
