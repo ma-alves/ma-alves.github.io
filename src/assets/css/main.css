@@ -17,3 +17,13 @@
     font-family: 'JetBrains Mono', monospace;
   }
 }
+
+@layer components {
+  .nav-link {
+    @apply no-underline hover:underline hover:underline-offset-4;
+  }
+
+  .social-icon {
+    @apply transition-colors duration-300 hover:text-accent-hover;
+  }
+}

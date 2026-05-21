@@ -1,4 +1,3 @@
-- adicionar foto
 - botar link em projetos
 
 # Portfólio — Matheus Alves
