@@ -1,0 +1,73 @@
+{
+  "name": "Matheus Alves",
+  "role": "software developer",
+  "about": [
+    "Sou desenvolvedor freelancer com experiência em criar APIs REST seguras, escaláveis e bem documentadas. Trabalho com entregas no prazo, código limpo e comunicação transparente, do planejamento à produção.",
+    "Se você precisa de um profissional confiável para construir ou evoluir a estrutura do seu projeto, desenvolver integrações com serviços externos ou automatizar processos com IA, estou aqui para ajudar. Vamos transformar sua ideia em solução."
+  ],
+  "social": {
+    "email": "matheusvialves@proton.me",
+    "linkedin": "https://linkedin.com/in/matheusvialves",
+    "github": "https://github.com/ma-alves",
+    "whatsapp": "https://wa.me/5561985951558"
+  },
+  "stack": [
+    {
+      "category": "Linguagens",
+      "items": ["Python", "Java", "TypeScript (Node.js)", "Rust"]
+    },
+    {
+      "category": "Frameworks Web",
+      "items": ["FastAPI", "Django", "Spring Boot", "Express"]
+    },
+    {
+      "category": "DevOps & Infra",
+      "items": ["Docker", "Docker Compose", "GitHub Actions", "AWS (API Gateway, Lambda, Dynamo, RDS, S3)"]
+    },
+    {
+      "category": "Bancos de Dados",
+      "items": ["PostgreSQL", "MySQL", "Redis"]
+    },
+    {
+      "category": "Arquiteturas & Padrões",
+      "items": ["MVC", "Clean Architecture", "Test Driven Design"]
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "PAPO",
+      "description": "Chat App em tempo real com monitoramento de status online sem coleta de dados pessoais, com sistema de recuperação de senha baseado em tokens (PAT).",
+      "link": "https://github.com/ma-alves/papo"
+    },
+    {
+      "title": "COSTUME RENTAL API",
+      "description": "API REST para servir uma aplicação de aluguel de fantasias, com sessões protegidas por JWT e alta cobertura de testes. Projeto documentado em inglês.",
+      "link": "https://github.com/ma-alves/costume-rental-api"
+    },
+    {
+      "title": "URL SHORTENER API",
+      "description": "API para encurtar URLs desenvolvida com FastAPI e arquitetura assíncrona para alto desempenho. Códigos de URL criados utilizando base 62 com range de 7 dígitos, possibilitando 62\u2077 combinações de caracteres, valor mais do que suficiente para a escalabilidade do serviço.",
+      "link": "https://github.com/ma-alves/url-shortener"
+    },
+    {
+      "title": "BUHTIG",
+      "description": "Aplicativo de linha de comando para consumir dados da API do GitHub sobre atividades de usuários e em repositórios.",
+      "link": "https://github.com/ma-alves/buhtig"
+    }
+  ],
+  "services": [
+    {
+      "title": "Desenvolvimento de APIs",
+      "description": "Criação de APIs REST robustas e seguras, com documentação e pipelines de CI/CD."
+    },
+    {
+      "title": "Integrações com Serviços Externos",
+      "description": "Integração com gateways de pagamento como Stripe e Asaas, envio de e-mails (Resend, SendGrid), e outras APIs de terceiros para conectar seu produto ao ecossistema certo."
+    },
+    {
+      "title": "Automações com Agentes de IA",
+      "description": "Automação de tarefas e processos usando agentes de IA: desde assistentes conversacionais até pipelines inteligentes de processamento de dados."
+    }
+  ]
+}
