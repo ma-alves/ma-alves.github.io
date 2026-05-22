@@ -5,12 +5,12 @@
       {% for exp in profile.experience %}
       <div class="border-l-2 border-accent pl-4">
         <h3 class="font-semibold">{{ exp.role }}</h3>
-        <p class="text-sm text-stone-400">{{ exp.company }} · {{ exp.period }}</p>
+        <p class="text-sm text-stone-500 dark:text-stone-400">{{ exp.company }} · {{ exp.period }}</p>
         <p class="mt-2">{{ exp.description }}</p>
       </div>
       {% endfor %}
     {% else %}
-      <p class="text-stone-500 italic">Em breve</p>
+      <p class="text-stone-400 dark:text-stone-500 italic">Em breve</p>
     {% endif %}
   </div>
 </section>
