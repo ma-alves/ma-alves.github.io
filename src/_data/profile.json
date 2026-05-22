@@ -57,8 +57,16 @@
   ],
   "services": [
     {
-      "title": "Exemplo de Serviço",
-      "description": "Descrição do serviço que você oferece."
+      "title": "Desenvolvimento de APIs",
+      "description": "Criação de APIs REST robustas e seguras, com documentação e pipelines de CI/CD."
+    },
+    {
+      "title": "Integrações com Serviços Externos",
+      "description": "Integração com gateways de pagamento como Stripe e Asaas, envio de e-mails (Resend, SendGrid), e outras APIs de terceiros para conectar seu produto ao ecossistema certo."
+    },
+    {
+      "title": "Automações com Agentes de IA",
+      "description": "Automação de tarefas e processos usando agentes de IA: desde assistentes conversacionais até pipelines inteligentes de processamento de dados."
     }
   ]
 }
