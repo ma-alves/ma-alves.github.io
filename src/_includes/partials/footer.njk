@@ -1,0 +1,11 @@
+<footer class="mt-12 pt-6 border-t border-stone-200 dark:border-stone-800 text-sm text-stone-500 dark:text-stone-400">
+  <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+    <div class="flex flex-wrap gap-4">
+      <a href="mailto:{{ profile.social.email }}" class="hover:text-accent transition-colors duration-300">email</a>
+      <a href="{{ profile.social.linkedin }}" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors duration-300">linkedin</a>
+      <a href="{{ profile.social.github }}" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors duration-300">github</a>
+      <a href="{{ profile.social.whatsapp }}" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors duration-300">whatsapp</a>
+    </div>
+    <p>&copy; {{ profile.name }}</p>
+  </div>
+</footer>
