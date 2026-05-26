@@ -2,8 +2,7 @@
   "name": "Matheus Alves",
   "role": "software developer",
   "about": [
-    "Sou desenvolvedor freelancer com experiência em criar APIs REST seguras, escaláveis e bem documentadas. Trabalho com entregas no prazo, código limpo e comunicação transparente, do planejamento à produção.",
-    "Se você precisa de um profissional confiável para construir ou evoluir a estrutura do seu projeto, desenvolver integrações com serviços externos ou automatizar processos com IA, estou aqui para ajudar. Vamos transformar sua ideia em solução."
+    "Sou desenvolvedor freelancer com experiência prática no desenvolvimento de sistemas seguros, escaláveis e bem documentados. Trabalho com entregas no prazo, código limpo e comunicação transparente, do planejamento à produção."
   ],
   "social": {
     "email": "matheusvialves@proton.me",
@@ -14,7 +13,7 @@
   "stack": [
     {
       "category": "Linguagens",
-      "items": ["Python", "Java", "TypeScript (Node.js)", "Rust"]
+      "items": ["Python", "Java", "TypeScript", "Rust"]
     },
     {
       "category": "Frameworks Web",
@@ -22,7 +21,7 @@
     },
     {
       "category": "DevOps & Infra",
-      "items": ["Docker", "Docker Compose", "GitHub Actions", "AWS (API Gateway, Lambda, Dynamo, RDS, S3)"]
+      "items": ["Docker", "Docker Compose", "GitHub Actions", "AWS (API Gateway, Lambda, DynamoDB, RDS, S3)"]
     },
     {
       "category": "Bancos de Dados",
@@ -46,16 +45,11 @@
       "link": "https://github.com/ma-alves/costume-rental-api"
     },
     {
-      "title": "URL SHORTENER API",
+      "title": "URL SHORTENER",
       "description": "API para encurtar URLs desenvolvida com FastAPI e arquitetura assíncrona para alto desempenho. Códigos de URL criados utilizando base 62 com range de 7 dígitos, possibilitando 62\u2077 combinações de caracteres, valor mais do que suficiente para a escalabilidade do serviço.",
       "link": "https://github.com/ma-alves/url-shortener"
-    },
-    {
-      "title": "BUHTIG",
-      "description": "Aplicativo de linha de comando para consumir dados da API do GitHub sobre atividades de usuários e em repositórios.",
-      "link": "https://github.com/ma-alves/buhtig"
     }
-  ],
+   ],
   "services": [
     {
       "title": "Desenvolvimento de APIs",
@@ -63,7 +57,7 @@
     },
     {
       "title": "Integrações com Serviços Externos",
-      "description": "Integração com gateways de pagamento como Stripe e Asaas, envio de e-mails (Resend, SendGrid), e outras APIs de terceiros para conectar seu produto ao ecossistema certo."
+      "description": "Integração com gateways de pagamento como Stripe e Asaas, envio de e-mails (Resend, SendGrid), e demais APIs de terceiros para conectar seu produto ao ecossistema certo."
     },
     {
       "title": "Automações com Agentes de IA",
