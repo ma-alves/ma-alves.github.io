@@ -4,7 +4,7 @@ template = "index.html"
 [extra]
 email = "matheusvialves@proton.me"
 github = "https://github.com/ma-alves"
-linkedin = "https://linkedin.com/in/matheusvialves"
+linkedin = ""
 +++
 
 ### hi!
@@ -21,3 +21,4 @@ Have a good day!
 - center footer
 - mention igno
 - mention use of llm to correct grammar
+- make responsive?!
