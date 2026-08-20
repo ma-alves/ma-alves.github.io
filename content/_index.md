@@ -7,17 +7,15 @@ github = "https://github.com/ma-alves"
 linkedin = "https://www.linkedin.com/in/matheusvialves"
 +++
 
-### hi!
+### oi!
 
-My name is <b>matheus</b> and I think I'm a software developer. If you're reading this, you're late, I no longer have a portfolio. I'm moving into a tech limbo career, as entry-level web dev positions have become a circus. I love open source projects and I'm looking for communities to join and contribute to.
+Meu nome é <b>matheus</b> e eu acho que sou Desenvolvedor de Software. Se você está lendo isso, você está atrasado! Não tenho mais portfólio, estou migrando para um limbo profissional, visto que vagas para desenvolvedores júniors se tornaram um circo. Amo projetos open source e estou à procura de comunidades e projetos para contribuir.
 
-As you can see, front-end is not my thing, so I decided to build this website using Zola -- a Rust SSG engine. Not a big fan of it, but since I really want to get into Rust I'm giving it a shot.
+Como vocês podem ver, front-end não é o meu forte, então decidi fazer esse site usando Zola -- Rust SSG engine. Não tô gostando muito mas como quero me aprofundar mais na linguagem estou dando uma chance.
 
-Currently, I'm building an HTTP Client TUI using ratatui. At first I was coding by hand, but time is a privilege I don't have, so OpenCode took the wheel and now the project is a mess -- a working mess. Might restart from scratch one day. Having no clue how to design any kind of interface has made this process quite painful but I'll learn anyway. I have never centered a div without AI help.
+Atualmente estou desenvolvendo um cliente HTTP usando ratatui. No começo fui fazendo na mão mas tempo é um privilégio que eu não tenho, então o Opencode assumiu o controle e agora o projeto tá uma bagunça -- uma bagunça funcional -- que será refatorada! Não fazer ideia de como estruturar interfaces e afins tornou este processo bem doloroso, mas de qualquer jeito aprendo. Acho que nunca centralizei uma div sem ajuda de um agente.
 
-Have a good day!
+Tenha um bom dia!
 
 ### to-do
-- mention igno
-- mention use of llm to correct grammar
-- make responsive?!
+- implementar responsividade?!
